@@ -1,0 +1,62 @@
+body {
+    background-size: cover;
+}
+
+.head {
+    font-size: 25px !important;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 0px 5px 10px red;
+    text-shadow: 0px 0px 7px lightgray;
+    font-family: 'Kaushan Script', cursive;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    from {background-color: darkblue;}
+    to {background-color: #337ab7;}
+}
+
+.note {
+    font-size: 15px;
+    font-family: cursive;
+    box-shadow: 0px 0px 10px lightgray
+}
+
+.speed {
+    float: left;
+}
+
+.volume {
+    float: right;
+}
+
+.speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed_val , #volume_val {
+    font-size: 23px;
+    margin: 15px;
+}
+
+.play_btn {
+    width: 130px;
+    font-size: 22px !important;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px lightgray;
+}
+
+canvas {
+    border: 5px solid;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: 60px;
+    border-left-color: azure;
+    border-right-color: lightgray;
+    border-bottom-color: azure;
+    border-top-color: lightgray;
+    box-shadow: 0px 0px 35px red;
+}
